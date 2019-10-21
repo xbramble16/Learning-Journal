@@ -1,4 +1,5 @@
 # Welcome to my Learning Journal
+![Image of myself](Selfie.JPG)
 
 ## Introduction
 My name is Xandria Bramble and I'm 16 years old. I currently attend Triple C School and I'm in 11th Grade.
