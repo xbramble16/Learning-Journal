@@ -24,8 +24,13 @@ When I graduate from highschool, I want to study computer science or software en
 A *learning journal* is a way that I can keep track of what I'll be doing this week. This learning journal will contain a cheat sheet about learning of software development. It will store my ideas and thoughts throughtout this whole week.
 
 ## Growth Mindset
-A *growth mindset* is a type of mindset that 
+A *growth mindset* is a type of mindset that tells you to be positive and that you are able to achieve what you want. With a growht mindset you are able to have the motivation to be able to learn what you want.
 
+### Ways to have a growth mindset:
+1. Be persistant
+2. Learn from your mistakes
+3. Be inspired by other people
+4. Embrace challenges
 
 
 
