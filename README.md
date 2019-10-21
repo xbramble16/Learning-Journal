@@ -1,35 +1,31 @@
-## Welcome to my Learning Journal
+# Welcome to my Learning Journal
 
-My name is Xandria Bramble and I'm a software developer.
+## Introduction
+My name is Xandria Bramble and I'm 16 years old. I currently attend Triple C School and I'm in 11th Grade.
 
-### Markdown
+I'm a born Caymanian, but I'm not fully Caymanian. My father's from Kingston, Jamaica and my mother is from West Bay, Grand Cayman.
+Music is a part of me. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I do Music Theory in school, I play in the Highschool Band, I am apart of the Senior Vocal Troupe and do flute lesssons at Musicians Limited. My main instrument is flute which I have been playing since I was 9 years old. I also play piccolo in Band when it's needed. 
 
-```markdown
-Syntax highlighted code block
+Another instrument I play for events like church services or worship at school, I play my guitar. 
 
-# Header 1
-## Header 2
-### Header 3
+When I graduate from highschool, I want to study computer science or software engineering when I go to university. 
 
-- Bulleted
-- List
+### Here are a few things that I **enjoy** and **do** very often:
+- Play my guitar and flute
+- Sing & dance
+- Watch YouTube
+- Read fiction books
+- Listen to music
+- Fangirl over K-pop
 
-1. Numbered
-2. List
+## A Learning Journal is...
+A *learning journal* is a way that I can keep track of what I'll be doing this week. This learning journal will contain a cheat sheet about learning of software development. It will store my ideas and thoughts throughtout this whole week.
 
-**Bold** and _Italic_ and `Code` text
+## Growth Mindset
+A *growth mindset* is a type of mindset that 
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xbramble16/Learning-Journal/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
