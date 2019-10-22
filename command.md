@@ -65,5 +65,16 @@ user@bash:
 ```
 
 ## Basic Navigation
+- **(pwd)** stands for "Print Working Directory", this displays the directory (folder) you are currently in. 
+    - use this command often to know where you are.
+- **(ls)** stands for "list", when this command is entered it will display all the folders/directories in the current directory you're located in.
+    - when you enter the command (ls /etc) it doesn't just list the current directory, it also lists the directory's contents.
+- **(cd)** stands for "change directory". If this command is run without an argument, it'll take you to the home directory.
+- **(/etc)** stores config files
+- **(/var/log)** stores log files for various system programs
+- **(/bin)** the location of several commonly used programs
+- **(/usr/bin)** another location for programs on the system
+
+#### Examples:
 
 ## Files
