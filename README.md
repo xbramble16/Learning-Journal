@@ -1,4 +1,9 @@
 # Welcome to my Learning Journal
+
+## Table of Contents
+1. [Command Lines](command.md)
+2. [Git](git.md)
+
 ![Image of myself](Selfie.JPG)
 
 ## Introduction
