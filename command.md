@@ -9,10 +9,11 @@ The most *important features* of a text editor are:
 - choosing from a healthy selection of extensions
 
 ### Different Text Editors
-Every computer comes with its own text editor
+Every computer comes with its own text editor.
 - A **Mac** comes with "Text Edit"
 - A **Windows computer** comes with "Notepad"
-THe original types of text editors don't have the features of code completion, syntax highlighting, themes, or extensions.
+
+The original types of text editors don't have the features of code completion, syntax highlighting, themes, or extensions.
 
 Different text editors that you can download are:
 - Note Pad ++
