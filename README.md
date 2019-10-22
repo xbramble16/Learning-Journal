@@ -5,8 +5,8 @@
 My name is Xandria Bramble and I'm 16 years old. I currently attend Triple C School and I'm in 11th Grade.
 
 I'm a born Caymanian, but I'm not fully Caymanian. My father's from Kingston, Jamaica and my mother is from West Bay, Grand Cayman.
-Music is a part of me. 
 
+Music is a part of me. 
 I do Music Theory in school, I play in the Highschool Band, I am apart of the Senior Vocal Troupe and do flute lesssons at Musicians Limited. My main instrument is flute which I have been playing since I was 9 years old. I also play piccolo in Band when it's needed. 
 
 Another instrument I play for events like church services or worship at school, I play my guitar. 
