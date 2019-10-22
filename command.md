@@ -1,6 +1,7 @@
 # Command
 ## Text Editors
 A **text editor** is  piece of software that's downloaded unto the computer. It allows you to write and manage text that's used to build a website.
+
 The most *important features* of a text editor are:
 - code completion
 - syntax highlighting
