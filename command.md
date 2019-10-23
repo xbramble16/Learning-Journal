@@ -203,6 +203,7 @@ The **root directory** is at the very top of the structure. This is denoted by a
     - can be used several times to go up to the hierarchy.
         - run **(ls ../../)**
          - would give a listing of root directory
+         
 ## Files
 ### Linux
 *Linux* considers everything (a text file, a directory, keyboard, monitor, etc.) a file.
