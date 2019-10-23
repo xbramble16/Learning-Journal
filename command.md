@@ -40,7 +40,7 @@ drwxr-xr-x 2 ryan users 4096 May 05 17:25 public_html
 user@bash:
 ```
 
-### Explanation:
+#### Explanation:
 - **Line 1:** 
     - After the prompt (user@bash) the command (ls) was entered. A **command** is the first thing you type. Command line arguments are (-l /home/ryan).
     - The command and first command line arguments are separated by a space.
@@ -70,11 +70,163 @@ user@bash:
 - **(ls)** stands for "list", when this command is entered it will display all the folders/directories in the current directory you're located in.
     - when you enter the command (ls /etc) it doesn't just list the current directory, it also lists the directory's contents.
 - **(cd)** stands for "change directory". If this command is run without an argument, it'll take you to the home directory.
+- **(mv)** stands for "move".
+- **(cp)** stands for "copy".
+- **(rm)** stands for "remove".
+- **(touch)** means to create a new file
+- **(mkdir)** stands for "make directory"
+- **(file)** obtains information about the type of file for a file/directory.
+- **(ls -a)** lists the content of a directory, including the hidden files.
 - **(/etc)** stores config files
 - **(/var/log)** stores log files for various system programs
 - **(/bin)** the location of several commonly used programs
 - **(/usr/bin)** another location for programs on the system
 
-#### Examples:
+#### Examples: 
+ - pwd: 
+    ```
+        user@bash: pwd
+        /home/ryan
+        user@bash:
+    ```
+- ls:
+    ```
+        user@bash: ls
+        bin Documents public_html
+        user@bash:
+    ```
+- cd:
+    ```
+        user@bash: cd (name of directory)
+    ```
+- mv:
+    ```
+        user@bash: mv (source) (destination)
+    ```
+- cp:
+    ```
+        user@bash: cp (source) (destination)
+    ```
+- rm:
+    ```
+        user@bash: rm (name of file)
+    ```
+- touch:
+        user@bash: (name of file)
+- mkdir: 
+    ```
+        user@bash: mkdir (name of directory)
+    ```
+- file:
+    ```
+        user@bash: file
+        Usage: file [-bcEhikLlNnprsvzZ0] [--apple] [--extension] [--mime-encoding] [--mime-type]
+        ...
+    ```
+- ls -a:
+    ```
+        user@bash: ls -a Documents
+        . .. FILE.txt File1.txt file1.TXT .hidden .file.txt
+        ...
+    ```
+- /etc:
+    ```
+        user@bash: ls /etc
+        NetworkManager          init.d                   profile
+        X11                     initramfs-tools          profile.d
+        acpi                    inputrc                  protocols
+        adduser.conf            iproute2                 python
+        alternatives            iscsi                    python2.7
+        apm                     issue                    python3
+        ...
+    ```
+- /var/log:
+    ```
+        user@bash: ls /var/log
+        alternatives.log  btmp          dpkg.log  landscape  lxd       unattended-upgrades
+        apt               dist-upgrade  journal   lastlog    tallylog  wtmp
+        ...
+    ```
+- /bin:
+    ```
+        user@bash: ls /bin
+        bash                false       nc.openbsd     ss
+        btrfs               fgconsole   netcat         static-sh
+        btrfs-debug-tree    fgrep       netstat        stty
+        btrfs-find-root     findmnt     networkctl     su
+        btrfs-image         fsck.btrfs  nisdomainname  sync
+        ...
+    ```
+- /usr/bin:
+    ```
+        user@bash: ls /usr/bin
+        2to3-2.7                             newuidmap
+        NF                                   ngettext
+        VGAuthService                        nice
+        '['                                   nl
+        aa-enabled                           node
+        aa-exec                              nodejs
+        ...
+    ```
 
+### Paths
+A *path* is a way to get a particular file/directory on the system.
+Two types of paths are:
+- absolute
+- relative
+
+The root directory is at the very top of the structure. This is denoted by a single slash (/).
+- Files could be located in any of these subdirectories.
+
+**Absolute Paths** give a specific location related to the root directory. They can be identified with a forward slash (/).
+- Example:
+    ```
+        user@bash: ls /home/ryan/Documents
+        file1.txt file2.txt file3.txt
+        ...
+    ```
+
+**Relative Paths** give a specific location related to where you are currently in the system. Doesn't begin with a forward slash.
+- Example:
+    ```
+        user@bash: ls Documents
+        file1.txt file2.txt file3.txt
+        ...
+    ```
+
+### More Paths
+- (~) *tilde* = shortcut for home directory
+- (.) *dot* = reference to current directory
+- (..) *dotdot* = reference to parent directory
+    - can be used several times to go up to the hierarchy.
+        - run **ls ../../**
+         - would give a listing of root directory
 ## Files
+### Linux
+*Linux* considers everything (a text file, a directory, keyboard, monitor, etc.) a file.
+
+A file extension is commonly a set of 2-4 characters after a period at the end of a file.
+
+The following:
+- file.exe (program)
+- file.txt (plain text file)
+- file.png, file.gif, file.jpg (image)
+are all common extensions.
+
+Linux is an extensionless system that ignores the extensions and determines the type of file by looking inside. Linux is also case sensitive.
+
+#### Spaces in Names
+- **Quotes** = anything inside quotes is considered a single item.
+    - Example:
+        ```
+            user@bash: cd 'Holiday Photos'
+            user@bash: pwd
+            /home/ryan/Documents/Holiday Photos
+        ```
+- **Escape Characters** = place a backslash (\) between the two words/characters, doing this escapes/nullifies the special meaning of the next word/character.
+    - Example:
+        ```
+            user@bash: cd Holiday\ Photos
+            user@bash: pwd
+            /home/ryan/Documents/Holiday Photos
+        ```
