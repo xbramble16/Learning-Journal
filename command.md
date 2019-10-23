@@ -112,7 +112,9 @@ user@bash:
         user@bash: rm (name of file)
     ```
 - touch:
+    ```
         user@bash: (name of file)
+    ```
 - mkdir: 
     ```
         user@bash: mkdir (name of directory)
@@ -175,7 +177,7 @@ Two types of paths are:
 - absolute
 - relative
 
-The root directory is at the very top of the structure. This is denoted by a single slash (/).
+The **root directory** is at the very top of the structure. This is denoted by a single slash (/).
 - Files could be located in any of these subdirectories.
 
 **Absolute Paths** give a specific location related to the root directory. They can be identified with a forward slash (/).
@@ -199,13 +201,13 @@ The root directory is at the very top of the structure. This is denoted by a sin
 - (.) *dot* = reference to current directory
 - (..) *dotdot* = reference to parent directory
     - can be used several times to go up to the hierarchy.
-        - run **ls ../../**
+        - run **(ls ../../)**
          - would give a listing of root directory
 ## Files
 ### Linux
 *Linux* considers everything (a text file, a directory, keyboard, monitor, etc.) a file.
 
-A file extension is commonly a set of 2-4 characters after a period at the end of a file.
+A **file extension** is commonly known as a set of 2-4 characters after a period at the end of a file.
 
 The following:
 - file.exe (program)
